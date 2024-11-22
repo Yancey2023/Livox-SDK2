@@ -26,7 +26,7 @@
 
 std::shared_ptr<spdlog::logger> logger = NULL;
 bool is_save_log_file = false;
-bool is_console_log_enable = true;
+bool is_console_log_enable = false;
 
 void InitLogger() {
 
